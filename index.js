@@ -33,7 +33,7 @@ let persons = [
   ]
 
   app.get('/', (req, res) => {
-    res.send("Roni Kolari on kakkapylly")
+    res.send("Etusivu")
   })
 
 app.get('/api/persons', (req, res) => {
